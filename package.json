@@ -1,0 +1,19 @@
+{
+  "name": "smartlib-web",
+  "version": "1.0.0",
+  "description": "SMARTLIB - Modern Web-Based Library Management System",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node tests/test-flow.js"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.2.1",
+    "pg": "^8.23.1"
+  },
+  "devDependencies": {
+    "vite": "^8.3.8"
+  }
+}
